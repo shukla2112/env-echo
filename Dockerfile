@@ -1,4 +1,4 @@
-FROM golang:alpine as builder
+FROM golang:alpine
 
 COPY . /env-server
 WORKDIR /env-server
