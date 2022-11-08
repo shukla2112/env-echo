@@ -1,4 +1,4 @@
-FROM golang:alpine
+FROM golang:latest
 
 COPY . /env-server
 WORKDIR /env-server
